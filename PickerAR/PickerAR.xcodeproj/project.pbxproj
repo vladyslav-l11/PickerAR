@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2751ECA32A6D9B8300D1CC05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2751ECA22A6D9B8300D1CC05 /* AppDelegate.swift */; };
+		2751ECA52A6D9B8300D1CC05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2751ECA42A6D9B8300D1CC05 /* ContentView.swift */; };
+		2751ECA92A6D9B8400D1CC05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2751ECA82A6D9B8400D1CC05 /* Assets.xcassets */; };
+		2751ECAC2A6D9B8400D1CC05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2751ECAB2A6D9B8400D1CC05 /* Preview Assets.xcassets */; };
+		2771E5E22A742AB0004DE9F9 /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2771E5DE2A742AB0004DE9F9 /* fender_stratocaster.usdz */; };
+		2771E5E32A742AB0004DE9F9 /* toy_biplane_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2771E5DF2A742AB0004DE9F9 /* toy_biplane_idle.usdz */; };
+		2771E5E42A742AB0004DE9F9 /* robot_walk_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2771E5E02A742AB0004DE9F9 /* robot_walk_idle.usdz */; };
+		2771E5E52A742AB0004DE9F9 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2771E5E12A742AB0004DE9F9 /* teapot.usdz */; };
+		2771E5FC2A743B3B004DE9F9 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771E5FB2A743B3B004DE9F9 /* R.generated.swift */; };
+		2771E6022A794FBD004DE9F9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771E6012A794FBD004DE9F9 /* Model.swift */; };
+		2771E6052A795EDB004DE9F9 /* PlacementButtonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771E6042A795EDB004DE9F9 /* PlacementButtonViews.swift */; };
+		2771E6072A795F00004DE9F9 /* ModelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771E6062A795F00004DE9F9 /* ModelPickerView.swift */; };
+		2771E6092A79609B004DE9F9 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771E6082A79609B004DE9F9 /* ARViewContainer.swift */; };
+		279219512A7D2F27009BFA26 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 279219502A7D2F27009BFA26 /* FocusEntity */; };
+		279219532A7D2FDB009BFA26 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279219522A7D2FDB009BFA26 /* CustomARView.swift */; };
+		BADBE55B18BB545EF0764430 /* Pods_PickerAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B211B375D25F593B2F7BFB1 /* Pods_PickerAR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2751EC9F2A6D9B8300D1CC05 /* PickerAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2751ECA22A6D9B8300D1CC05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2751ECA42A6D9B8300D1CC05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2751ECA82A6D9B8400D1CC05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2751ECAB2A6D9B8400D1CC05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2771E5DE2A742AB0004DE9F9 /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
+		2771E5DF2A742AB0004DE9F9 /* toy_biplane_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane_idle.usdz; sourceTree = "<group>"; };
+		2771E5E02A742AB0004DE9F9 /* robot_walk_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robot_walk_idle.usdz; sourceTree = "<group>"; };
+		2771E5E12A742AB0004DE9F9 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		2771E5FB2A743B3B004DE9F9 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		2771E6012A794FBD004DE9F9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2771E6042A795EDB004DE9F9 /* PlacementButtonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementButtonViews.swift; sourceTree = "<group>"; };
+		2771E6062A795F00004DE9F9 /* ModelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPickerView.swift; sourceTree = "<group>"; };
+		2771E6082A79609B004DE9F9 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		279219522A7D2FDB009BFA26 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		4B211B375D25F593B2F7BFB1 /* Pods_PickerAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7497DE636C282BB0B0059483 /* Pods-PickerAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerAR.release.xcconfig"; path = "Target Support Files/Pods-PickerAR/Pods-PickerAR.release.xcconfig"; sourceTree = "<group>"; };
+		7CAD96E541839C19522261BB /* Pods-PickerAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerAR.debug.xcconfig"; path = "Target Support Files/Pods-PickerAR/Pods-PickerAR.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2751EC9C2A6D9B8300D1CC05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279219512A7D2F27009BFA26 /* FocusEntity in Frameworks */,
+				BADBE55B18BB545EF0764430 /* Pods_PickerAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ACBC51510D535A2CCE49B4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CAD96E541839C19522261BB /* Pods-PickerAR.debug.xcconfig */,
+				7497DE636C282BB0B0059483 /* Pods-PickerAR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2751EC962A6D9B8300D1CC05 = {
+			isa = PBXGroup;
+			children = (
+				2751ECA12A6D9B8300D1CC05 /* PickerAR */,
+				2751ECA02A6D9B8300D1CC05 /* Products */,
+				1ACBC51510D535A2CCE49B4C /* Pods */,
+				302C658FAA4833D21A82A9A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2751ECA02A6D9B8300D1CC05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2751EC9F2A6D9B8300D1CC05 /* PickerAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2751ECA12A6D9B8300D1CC05 /* PickerAR */ = {
+			isa = PBXGroup;
+			children = (
+				2771E6002A794FB0004DE9F9 /* Models */,
+				2771E5D12A742234004DE9F9 /* Views */,
+				2771E5D02A742226004DE9F9 /* Resources */,
+				2751ECA22A6D9B8300D1CC05 /* AppDelegate.swift */,
+				2751ECAA2A6D9B8400D1CC05 /* Preview Content */,
+			);
+			path = PickerAR;
+			sourceTree = "<group>";
+		};
+		2751ECAA2A6D9B8400D1CC05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2751ECAB2A6D9B8400D1CC05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2771E5D02A742226004DE9F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2771E5DD2A742A82004DE9F9 /* Models */,
+				2771E5D32A742296004DE9F9 /* Generated */,
+				2751ECA82A6D9B8400D1CC05 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2771E5D12A742234004DE9F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2751ECA42A6D9B8300D1CC05 /* ContentView.swift */,
+				2771E6042A795EDB004DE9F9 /* PlacementButtonViews.swift */,
+				2771E6062A795F00004DE9F9 /* ModelPickerView.swift */,
+				2771E6082A79609B004DE9F9 /* ARViewContainer.swift */,
+				279219522A7D2FDB009BFA26 /* CustomARView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2771E5D32A742296004DE9F9 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				2771E5FB2A743B3B004DE9F9 /* R.generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		2771E5DD2A742A82004DE9F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2771E5DE2A742AB0004DE9F9 /* fender_stratocaster.usdz */,
+				2771E5E02A742AB0004DE9F9 /* robot_walk_idle.usdz */,
+				2771E5E12A742AB0004DE9F9 /* teapot.usdz */,
+				2771E5DF2A742AB0004DE9F9 /* toy_biplane_idle.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2771E6002A794FB0004DE9F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2771E6012A794FBD004DE9F9 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		302C658FAA4833D21A82A9A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B211B375D25F593B2F7BFB1 /* Pods_PickerAR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2751EC9E2A6D9B8300D1CC05 /* PickerAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2751ECAF2A6D9B8400D1CC05 /* Build configuration list for PBXNativeTarget "PickerAR" */;
+			buildPhases = (
+				8807D194271AABD9BE9E1F05 /* [CP] Check Pods Manifest.lock */,
+				2771E5D82A7427B6004DE9F9 /* R.swift */,
+				2751EC9B2A6D9B8300D1CC05 /* Sources */,
+				2751EC9C2A6D9B8300D1CC05 /* Frameworks */,
+				2751EC9D2A6D9B8300D1CC05 /* Resources */,
+				91D762C5A3E0BA9DB0869C46 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickerAR;
+			packageProductDependencies = (
+				279219502A7D2F27009BFA26 /* FocusEntity */,
+			);
+			productName = PickerAR;
+			productReference = 2751EC9F2A6D9B8300D1CC05 /* PickerAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2751EC972A6D9B8300D1CC05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2751EC9E2A6D9B8300D1CC05 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2751EC9A2A6D9B8300D1CC05 /* Build configuration list for PBXProject "PickerAR" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2751EC962A6D9B8300D1CC05;
+			packageReferences = (
+				2792194F2A7D2F27009BFA26 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = 2751ECA02A6D9B8300D1CC05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2751EC9E2A6D9B8300D1CC05 /* PickerAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2751EC9D2A6D9B8300D1CC05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2771E5E52A742AB0004DE9F9 /* teapot.usdz in Resources */,
+				2771E5E32A742AB0004DE9F9 /* toy_biplane_idle.usdz in Resources */,
+				2771E5E42A742AB0004DE9F9 /* robot_walk_idle.usdz in Resources */,
+				2751ECAC2A6D9B8400D1CC05 /* Preview Assets.xcassets in Resources */,
+				2751ECA92A6D9B8400D1CC05 /* Assets.xcassets in Resources */,
+				2771E5E22A742AB0004DE9F9 /* fender_stratocaster.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2771E5D82A7427B6004DE9F9 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/PickerAR/Resources/Generated/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/PickerAR/Resources/Generated/R.generated.swift\"\n";
+		};
+		8807D194271AABD9BE9E1F05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickerAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91D762C5A3E0BA9DB0869C46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickerAR/Pods-PickerAR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickerAR/Pods-PickerAR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PickerAR/Pods-PickerAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2751EC9B2A6D9B8300D1CC05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2751ECA52A6D9B8300D1CC05 /* ContentView.swift in Sources */,
+				2751ECA32A6D9B8300D1CC05 /* AppDelegate.swift in Sources */,
+				2771E6072A795F00004DE9F9 /* ModelPickerView.swift in Sources */,
+				2771E6092A79609B004DE9F9 /* ARViewContainer.swift in Sources */,
+				2771E5FC2A743B3B004DE9F9 /* R.generated.swift in Sources */,
+				2771E6052A795EDB004DE9F9 /* PlacementButtonViews.swift in Sources */,
+				279219532A7D2FDB009BFA26 /* CustomARView.swift in Sources */,
+				2771E6022A794FBD004DE9F9 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2751ECAD2A6D9B8400D1CC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2751ECAE2A6D9B8400D1CC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2751ECB02A6D9B8400D1CC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CAD96E541839C19522261BB /* Pods-PickerAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PickerAR/Preview Content\"";
+				DEVELOPMENT_TEAM = L8252FQ78N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleveroad.PickerAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2751ECB12A6D9B8400D1CC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7497DE636C282BB0B0059483 /* Pods-PickerAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PickerAR/Preview Content\"";
+				DEVELOPMENT_TEAM = L8252FQ78N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleveroad.PickerAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2751EC9A2A6D9B8300D1CC05 /* Build configuration list for PBXProject "PickerAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2751ECAD2A6D9B8400D1CC05 /* Debug */,
+				2751ECAE2A6D9B8400D1CC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2751ECAF2A6D9B8400D1CC05 /* Build configuration list for PBXNativeTarget "PickerAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2751ECB02A6D9B8400D1CC05 /* Debug */,
+				2751ECB12A6D9B8400D1CC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2792194F2A7D2F27009BFA26 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		279219502A7D2F27009BFA26 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2792194F2A7D2F27009BFA26 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2751EC972A6D9B8300D1CC05 /* Project object */;
+}
